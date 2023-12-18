@@ -1,35 +1,42 @@
-
-
-.full {
-  background-color: rgb(191,202,224);
-  min-height: 100vh;
-  min-width: 100vh;
-}
-
-.main {
-  min-height: 100%;
-  min-width: 100%;
-
-}
-
-.cell {
-
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
   text-align: center;
-  /* padding: 1vh; */
-  border: 2px solid black;
 }
 
-.cell:hover {
-  transform: scale(1.02);
-  transition-duration: 0.6s;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.cell-left{
-  background-image:url("./leoHeadshot.jpg");
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.variableImg {
-  border-radius: 20px;
-  max-height: 100%;
-  max-width: 100%;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
 }
