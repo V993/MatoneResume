@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/leonardo-matone/static/css/main.a89bccdd.css",
-    "main.js": "/leonardo-matone/static/js/main.99aef248.js",
-    "static/media/id-picture.jpg": "/leonardo-matone/static/media/id-picture.5f4271e54e1fbf061d21.jpg",
-    "static/media/tulane.png": "/leonardo-matone/static/media/tulane.192cf8770d4b2a64d057.png",
-    "index.html": "/leonardo-matone/index.html",
-    "main.a89bccdd.css.map": "/leonardo-matone/static/css/main.a89bccdd.css.map",
-    "main.99aef248.js.map": "/leonardo-matone/static/js/main.99aef248.js.map"
+    "main.css": "/LeonardoMatone/static/css/main.a89bccdd.css",
+    "main.js": "/LeonardoMatone/static/js/main.ce6eca77.js",
+    "static/media/id-picture.jpg": "/LeonardoMatone/static/media/id-picture.5f4271e54e1fbf061d21.jpg",
+    "static/media/tulane.png": "/LeonardoMatone/static/media/tulane.192cf8770d4b2a64d057.png",
+    "index.html": "/LeonardoMatone/index.html",
+    "main.a89bccdd.css.map": "/LeonardoMatone/static/css/main.a89bccdd.css.map",
+    "main.ce6eca77.js.map": "/LeonardoMatone/static/js/main.ce6eca77.js.map"
   },
   "entrypoints": [
     "static/css/main.a89bccdd.css",
-    "static/js/main.99aef248.js"
+    "static/js/main.ce6eca77.js"
   ]
 }
