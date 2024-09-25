@@ -10,7 +10,7 @@ export const projects = [
     // Add more projects
   ];
   
-  export function getProjectById(id) {
-    return projects.find((project) => project.id === id);
-  }
+export function getProjectById(id) {
+  return projects.find((project) => project.id === id);
+}
   
